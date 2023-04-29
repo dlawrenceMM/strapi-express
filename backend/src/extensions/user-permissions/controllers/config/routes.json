@@ -1,0 +1,8 @@
+{
+    "method": "GET",
+    "path": "/custom/redirect-to-builder",
+    "handler": "custom.redirectToBuilder",
+    "config": {
+      "policies": [ "mmEmployees" ]
+    }
+}
