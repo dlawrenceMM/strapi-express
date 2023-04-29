@@ -1,0 +1,27 @@
+/*!**********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./app/styles/index.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Poppins:ital,wght@0,100;0,200;1,200&display=swap);
+/*!**************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./app/styles/index.scss (1) ***!
+  \**************************************************************************************************************************************************************************************************************************************************/
+/*Fonts*/
+/*Profiles*/
+#root > div {
+  --primary: white;
+  --secondary: black;
+  --tertiary: red;
+}
+
+/*General Styling*/
+body {
+  background: black;
+  color: white;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*# sourceMappingURL=main.css.map*/

@@ -1,0 +1,22 @@
+<%- include("partials/_header") %>
+
+  <form action="/auth/register" method="post">
+    <div>
+      <input type="text" name="username" placeholder="Username">
+    </div>
+    <div>
+      <input type="text" name="email" placeholder="Email">
+    </div>
+    <div>
+      <input type="password" name="password" placeholder="Password">
+    </div>
+    <div>
+      <button type="submit">Register</button>
+    </div>
+  </form>
+
+<script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script src="/dist/bundle.js"></script>
+<%- include("partials/_footer") %>
+
